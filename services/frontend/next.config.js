@@ -9,6 +9,8 @@ module.exports = {
     ignoreBuildErrors: true,
   },
   images: {
-    domains: [process.env.NEXT_PUBLIC_SPREE_ALLOWED_IMAGE_DOMAIN],
+    // domains: [process.env.NEXT_PUBLIC_SPREE_ALLOWED_IMAGE_DOMAIN],
+    domains: ['web', process.env.NEXT_PUBLIC_SPREE_ALLOWED_IMAGE_DOMAIN],
+
   },
 }
